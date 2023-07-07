@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500&family=Raleway:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Fylo Landing Page</title>
+  </head>
+
+  <body>
+    <header class="header flex">
+      <a href="#">
+        <img src="logo.png" alt="Brand Logo" class="headerLogo" />
+      </a>
+
+      <ul class="navLinks flex">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section>
+        <div class="headerContainer flex">
+          <div class="headerContentContainer">
+            <h2>All your files in one secure location, accessible anywhere.</h2>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+            />
+            <button class="btn headerBtn">Get Started</button>
+          </div>
+          <div class="headerImgContainer">
+            <img src="illustration img.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="productive">
+        <div class="productiveContainer flex">
+          <div class="productiveContent">
+            <h3>Stay productive, wherever you are</h3>
+            <p class="productivePara">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="productivePara">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="link">
+              <a href="#"
+                >See how Fylo works
+                <i
+                  class="fa-solid fa-circle-arrow-right"
+                  style="color: #258d27"
+                ></i>
+              </a>
+            </div>
+
+            <div class="testimonial">
+              <p class="testimonialData">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+
+                <img src="quoteImg.png" alt="" class="quoteImg" />
+              </p>
+
+              <div class="userDataContainer flex">
+                <a href="#"
+                  ><img class="userImg" src="userReviewPhoto.png" alt=""
+                /></a>
+                <div class="userName">
+                  <h5>Kyle Burton</h5>
+                  <p class="UserCompany">Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="productiveImgContainer">
+            <img
+              src="illustrationProductiveSection.png"
+              alt=""
+              class="productiveImg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="callToActionContainer">
+        <div class="callToAction flex">
+          <div class="ctaData">
+            <h5>Get early access today</h5>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="ctaInput">
+            <input
+              type="email"
+              name="email"
+              id="ctaEmail"
+              placeholder="example@email.com"
+            />
+            <button class="btn ctaBtn">Get Started</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footerContainer">
+      <div class="footerData flex">
+        <div class="footerLogo">
+          <a href="#"><img src="footerLogo.png" alt="" /></a>
+          <div class="cellNumber flex">
+            <i
+              class="fa-sharp fa-solid fa-phone-volume"
+              style="color: #ffffff"
+            ></i>
+            <p>Phone: +92312-3456789</p>
+          </div>
+          <div class="emailAddress flex">
+            <i class="fa-solid fa-square-envelope" style="color: #ffffff"></i>
+            <p>uzairdev08@gmail.com</p>
+          </div>
+        </div>
+
+        <ul class="footerLinks1">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <ul class="footerLinks2">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+
+        <div class="footerSocialLinks flex">
+          <a class="socialLink">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a class="socialLink">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a class="socialLink">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
